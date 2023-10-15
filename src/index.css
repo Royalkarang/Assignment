@@ -1,0 +1,287 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.final11 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  background-color: #F5F6F8;
+}
+
+.slidebar11 {
+  width: 16%;
+  height: 100vh;
+  background-color: blue;
+}
+
+.project-page11 {
+  width: 87%;
+  padding: 3%;
+  overflow: auto;
+}
+
+.slidebar-div {
+  width: 100%;
+  height: inherit;
+  font-size: 0.75rem;
+  background-color: #040440;
+}
+
+.slider-head {
+  color: white;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+.Navbar-head {
+  display: flex;
+  padding-bottom: 1.5rem;
+  justify-content: space-between;
+}
+
+/* .................... */
+.card {
+  width: 100%;
+  display: flex;
+  height: 6rem;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+
+.cardIcon {
+  width: 5rem;
+  margin: auto;
+  height: 4.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  /* text-align: center; */
+}
+.dashboard {
+  display: flex;
+  font-size: larger;
+  font-weight: 600;
+  height: 77vh;
+  margin-top: 2rem;
+  margin-left: 1.7rem;
+  cursor: pointer;
+  color: white;
+}
+
+.dashboard>ul>li {
+  border-radius: 3px;
+  width: 10rem;
+  height: 3rem;
+}
+
+.dashboard>ul>li:hover {
+  background-color: blueviolet;
+}
+
+.manager {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  background-color: rgb(99, 106, 199);
+  border-radius: 3px;
+}
+
+.pic {
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.project {
+  display: flex;
+  font-weight: 300;
+}
+
+.reacticon {
+  /* margin-top: 6px; */
+  margin: 6px;
+}
+
+/* ..................Bar */
+.bars {
+  position: relative;
+  display: flex;
+  padding: 0 2rem;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.bar:hover {
+  background-color: aqua;
+}
+
+.bar {
+  position: absolute;
+  width: 2rem;
+  margin: 1rem;
+  bottom: 2rem;
+  border-radius: 5px;
+  background-color: rgb(194, 211, 228);
+}
+.month{
+  margin: 1rem;
+  margin-top: 10rem;
+  /* m-[15px] mt-[150px] */
+}
+
+/* .main {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: white;
+} */
+.overview-div{
+  width: 75%;
+  height: 100%;
+  border-radius: .6rem;
+  background-color: #fff;
+}
+.overview-head{
+  display: flex;
+  justify-content: space-between;
+}
+.graph-div{
+  width: 100%;
+  height: 16rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  justify-content: space-between;
+}
+.costumer-div{
+  width: fit-content;
+  height: 100%;
+  text-align: center;
+  border-radius: .8rem;
+  background-color: white;
+  /* m-auto mb-[40px] h-[240px] pl-[15px] w-[240px] bg-white rounded-sm */
+}
+
+/* .flex justify-between mb-[10px] */
+.Navbar-head {
+  display: flex;
+  padding-bottom: 1.5rem;
+  justify-content: space-between;
+
+}
+
+/* .................... */
+.card {
+  width: 100%;
+  display: flex;
+  height: 6rem;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+
+.cardIcon {
+  width: 5rem;
+  margin: auto;
+  height: 4.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  /* text-align: center; */
+}
+/* 
+.project-page {
+  display: flex;
+  width: 100%;
+  margin-left: 13rem;
+  flex-direction: column;
+  gap: 8rem;
+  background-color: #F5F6F8;
+} */
+
+/* ..................000 */
+/* mt-[57px] flex flex-col gap-8 ml-[250px] */
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+  .final11 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    background-color: #F5F6F8;
+  }
+  .slidebar11 {
+    display: none;
+  }
+  .Navbar-head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .cards {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .cardIcon {
+    width: fit-content;
+    margin: auto;
+    height: 50%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    /* text-align: center; */
+  }
+  .overview-div{
+    width: 100;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: .6rem;
+    background-color: #fff;
+  }
+  .overview-head{
+    display: flex;
+    justify-content: space-between;
+  }
+  .graph-div{
+    width: 100%;
+    height: 16rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    justify-content: space-between;
+  }
+}
